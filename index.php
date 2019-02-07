@@ -18,10 +18,6 @@ class klant
     }
 }
 
-$klant = new klant(1, 'ford', 123456789, 112, '1 januari 2019' );
-echo $klant->id;
-echo $klant->telefoonnummer;
-echo $klant->geboortedatum;
 
 
 
@@ -42,3 +38,9 @@ class auto
         $this->verkoopprijs = $verkoopprijs;
     }
 }
+
+
+$klant = new klant(1, 'ford', 123456789, 112, '1 januari 2019' );
+echo $klant->id;
+echo $klant->telefoonnummer;
+echo $klant->geboortedatum;
